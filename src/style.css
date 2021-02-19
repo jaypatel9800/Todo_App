@@ -1,0 +1,83 @@
+body {
+    background-color: #222930;
+    text-align: center;
+    text-decoration: none;
+    font-family:  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section {
+    color:#E9E9E9;
+
+}
+h1 {
+    margin-top: 50px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.submit-button {
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: #4EB1BA;
+    color: whitesmoke;
+    font-size: 15px;
+    border-color: #4EB1BA;
+    transform: scale(1.1);
+    transition: all 0.2s linear;
+}
+.submit-button:hover {
+    
+    transform: scale(1);
+    border-radius: 30px;
+    background-color: whitesmoke;
+    color: #4EB1BA;
+    border-color: whitesmoke;
+    color: black;
+}
+
+input {
+    padding: 5px 25px;
+    margin-top: 30px;
+    width: 75%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+}
+ul {
+    font-size: 20px;
+    margin-top: 50px;
+    
+}
+li {
+    padding: 5px 0px;
+
+    margin: 10px; 
+
+    color: #E9E9E9;
+}
+
+.delete-button {
+    margin-left: 20px;
+    border-radius: 20%;
+    font-weight: bold;
+    background-color: #4EB1BA;
+    border-color: #4EB1BA;
+    color: #E9E9E9;
+    transform: scale(1.1);
+    transition: all 0.1s linear;
+}
+.delete-button:hover {
+    transform: scale(1);
+    background-color: white;
+    color: black;
+    border-color: white;
+}
